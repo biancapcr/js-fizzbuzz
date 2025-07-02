@@ -4,4 +4,8 @@ for (let i = 1; i <= 100; i++){
     if (i % 3 === 0 && i % 5 === 0){
         console.log("FizzBuzz");
     }
+     // - Se n è multiplo di 3 → Fizz
+    else if (i % 3 === 0){
+        console.log("Fizz");
+    }
 }
